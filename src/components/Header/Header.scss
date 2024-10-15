@@ -1,0 +1,19 @@
+.header {
+  .header-img-container {
+    img {
+      width: 100%;
+      object-fit: scale-down;
+    }
+    h3 {
+      width: 100%;
+      text-align: center;
+      font-family: "Google Sans Display", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 56px;
+    }
+  }
+  .header-title {
+    text-align: center;
+    font-size: 56px;
+    line-height: 64px;
+  }
+}

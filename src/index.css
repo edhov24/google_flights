@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #e8eaed !important;
+  background-color: #202124 !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0.6;
+  cursor: pointer;
+  filter: invert(50%);
+}
+input[type="date"] {
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #333333;
+  border: 1px solid #444444;
+}
+
+input[type="date"]::-moz-focus-inner,
+input[type="date"]::-ms-clear {
+  color: gray;
+}
